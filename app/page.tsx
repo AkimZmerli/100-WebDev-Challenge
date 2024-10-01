@@ -60,7 +60,7 @@ const ProfileCard = () => {
               Follow
             </Button>
             <Button variant="outline" className="hover:bg-gray-200">
-              Unfollow now
+              Unfollow!
             </Button>
           </div>
         </div>
