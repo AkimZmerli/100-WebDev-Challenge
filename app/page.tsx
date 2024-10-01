@@ -60,7 +60,7 @@ const ProfileCard = () => {
               Follow
             </Button>
             <Button variant="outline" className="hover:bg-gray-200">
-              Unfollow
+              Unfollow now
             </Button>
           </div>
         </div>
@@ -79,6 +79,5 @@ const ProfileCard = () => {
 };
 
 export default ProfileCard;
-
 
 // ToDo: Adjust alert message
