@@ -60,13 +60,13 @@ const ProfileCard = () => {
               Follow
             </Button>
             <Button variant="outline" className="hover:bg-gray-200">
-              Unfollow!
+              Unfollow
             </Button>
           </div>
         </div>
 
         {showAlert && (
-          <Alert className="absolute top-2 right-3 left-2 bg-white-800 border-red-500">
+          <Alert className="fixed top-4 left-18 max-w-xs bg-green-600 border-green-600 text-white">
             <AlertTitle>Success!</AlertTitle>
             <AlertDescription>
               You are now following Kenny Rogers.
