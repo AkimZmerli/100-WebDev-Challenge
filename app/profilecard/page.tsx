@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import Image from "next/image";
 import Rogers from "../../components/images/kennyrogers.png";
-import { Inter } from "next/font/google";
 
 const ProfileCard = () => {
   const [showAlert, setShowAlert] = useState(false);

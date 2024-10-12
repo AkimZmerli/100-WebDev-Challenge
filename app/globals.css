@@ -1,8 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
-    --radius: 0.5rem
+    --radius: 0.5rem;
+    --primary-color: #1da1f2;
+    --secondary-color: #14171a;
   }
+
+  html {
+    --color-primary: #1da1f2;
+    --color-secondary: #8a5dc9;
+    --color-buttons: #da4ab1;
+    --color-typography: #e5b712;
+  }
+  @import "../styles/themes/theme1.css";
+  @import "../styles/themes/theme2.css";
 }
