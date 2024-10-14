@@ -14,6 +14,7 @@
     --color-secondary: #8a5dc9;
     --color-buttons: #da4ab1;
     --color-typography: #e5b712;
+    --color-background: #c019c9;
   }
   @import "../styles/themes/theme1.css";
   @import "../styles/themes/theme2.css";
